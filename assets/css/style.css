@@ -1,0 +1,294 @@
+* {
+    color: rgb(56, 56, 56);
+
+/*top-pageの画像調整  */
+}
+.top-page {
+    height: 95vh;
+    width: 100vw;
+    background-image: url(../img/top-page/kasumi.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+header {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+
+}
+
+li {
+    font-size: 20px;
+    /* font-family: 'Old Standard TT', serif; */
+    float: left;
+    margin-left: 60px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* top-pageのタイトル */
+.main-visual {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Old Standard TT', serif;
+    
+}
+
+/* top-pageのタイトル */
+.main-visual h1 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+.main-visual p {
+    font-size: 25px;
+    font-family: 'Old Standard TT', serif;
+    -webkit-text-size-adjust: 100%;
+    color: white;
+    width: 80%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Garden Gallery */
+#product-name1 {
+    font-size: 40px;
+    font-family: 'Old Standard TT', serif;
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+
+}
+/* Garden Galleryのロゴ */
+.logo {
+    height: 80px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+/* Gallery画像上段 */
+.product1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    
+}
+/* Gallery画像下段 */
+.product2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+section {
+    padding:  70px;
+    padding-top: 60px;
+}
+/* about h1 */
+h1 {
+    font-size: 38px;
+}
+/* ドライフラワー */
+h2 {
+    font-size: 20px;
+}
+/* ドライフラワーとPFの違い */
+h3 {
+    font-size: 20px;
+}
+/* 説明文 */
+p {
+    font-size: 16px;
+}
+
+/* #about { */
+    background-image: url(../img/top-page/flower.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding-top: 10px; */
+
+}
+
+
+/* aboutの画像・説明文 */
+.about-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.contents-left {
+    display: flex;
+    align-items: center;
+    padding: 1.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.contents-left img{
+    height: 120px;
+}
+
+.contents-right {
+    display: flex;
+    align-items: center;
+    padding: 1.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.contents-right img{
+    height:  120px;
+}
+
+/* Planの項目 */
+/* aboutの画像・説明文 */
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card1 {
+    display: flex;
+    align-items: flex-start;
+    padding: 1.5em 2em 1em 1em;
+    margin: 0.5em ;
+    color: #c92175;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.card1 img{
+    height: 120px;
+    margin-right: 10px;
+}
+
+.card2 {
+    display: flex;
+    align-items: flex-start;
+    padding: 1.5em 1em 1em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.card2 img{
+    height:  120px;
+    margin-right: 10px;
+}
+
+.card3 {
+    display: flex;
+    align-items: flex-start;
+    padding: 1.5em 1em 1em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.card3 img{
+    height:  110px;
+    margin-right: 10px;
+}
+
+
+/* .cards { */
+    display: flex;
+    margin-top: 70px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .plan-name { */
+    margin-top: 0;
+    padding: 1em 1.5em;
+    background: #fff2e4;
+    color: #000000;
+    /* align-items: stretch; */
+    /* padding: 0.5em 0.5em 0.4em; */
+    /* text-align: center; */
+    /* font-size: 1.3em; */
+    /* background: white; */
+    /* border-bottom: 3px solid #c5baae; */
+    /* color: #ffffff; */
+    /* font-weight: ; */
+    /* letter-spacing: 0.05em; */
+    /* align-items: flex-start; */
+    /* border: 1px solid black; */
+    /* margin: 0 10px; */
+    /* padding: 20px 20px; */
+}
+/* .card p { */
+    margin-bottom: 0;
+}
+/* .card h2{ */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* コンタクトの項目 */
+#contact {
+    margin-bottom: 230px;
+}
+.contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+input, textarea {
+    width: 40%;
+    font-size: 23px;
+    margin-bottom: 18px;
+    padding: 3px 12px;
+}
+input, textarea, button {
+    border-radius: 5px;
+}
+textarea {
+    width: 40%;
+}
+button {
+    width: 140px;
+    font-size: 23px;
+    padding: 7px;
+    height: 60px;
+    background-color: #223644;
+    margin-top: 26px;
+    cursor: pointer;
+    color: white;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #223644;
+}
+footer p {
+    color: white;
+}
